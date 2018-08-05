@@ -1,0 +1,112 @@
+body {
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+ width: 840px;
+  height: 485px;
+  margin: 20px;
+  border: 2px solid #DCDCDC;
+  background: url("sprite.png") no-repeat 50% 65%;
+  background-size: 765px auto;
+}
+
+
+
+form {
+	display: inline-flex;
+		margin-top: 30px;
+}
+.input {
+	width: 24px;
+	height: 32px;
+	font-size: 30px;
+	text-align: center;
+
+	border-style: none;
+	border-radius: 4px;
+
+}
+
+.numberC {
+	width: 30px;
+	height: 22px;
+	font-size: 27px;
+	text-align: center;
+	margin-top: 4px;
+	border: 2px solid gray;
+	border-radius: 4px;
+}
+
+
+.numberCrepl {
+	width: 36px;
+	height: 25px;
+	font-size: 30px;
+
+	
+}
+
+
+.block-strelki {
+	position: relative;
+	top: 88px;
+	left: 69px;
+
+}
+
+
+.strelkaA, .strelkaB  {
+	display: block;
+	max-width: 320px; 
+	transform-origin: 0 100% ;
+	position: relative;
+	 float: left;
+}
+
+.strelka {
+	display: block;
+	position: relative;
+	width: 200px; 
+	height: 80px;
+	border: 2px solid #d44e91;
+	border-bottom-style: none;
+	border-radius: 50% / 80px 80px 0 0;
+	transition: 2s
+	
+}
+
+.strelka:after {
+	display: block;
+	position: relative;
+	content: "";
+	width: 9px;
+    height: 8px;
+    border: 2px solid #d44e91;
+    border-left-style: none;
+    border-top-style: none;
+    transform:  rotate(50deg) skewX(25deg) ;
+    top: 68px;
+    left: 195px;
+    }
+
+.inputNumbA, .inputNumbB  {
+
+	position: relative;
+text-align: center;
+font-size: 22px;
+width: 22px;
+height: 22px;
+border: 2px solid gray;
+border-radius: 5px;
+margin-bottom: 25px;
+
+}
+.CorrectlyValstyleA, .CorrectlyValstyleB {
+	font-size: 25px;
+	margin-bottom: 20px;
+
+}
+
